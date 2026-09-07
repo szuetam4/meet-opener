@@ -1,0 +1,26 @@
+# Przykładowa konfiguracja — kopiowana automatycznie do meetings.yaml
+# przy pierwszej instalacji. Edytuj potem meetings.yaml, nie ten plik.
+
+meetings:
+  - id: standup
+    name: "Codzienny standup zespołu"
+    url: "https://meet.google.com/abc-defg-hij"
+    time: "09:00"
+    recurrence: weekdays
+    enabled: true
+
+  - id: retro
+    name: "Retrospektywa sprintu"
+    url: "https://meet.google.com/xyz-uvwx-rst"
+    time: "15:30"
+    recurrence: weekly
+    day_of_week: fri
+    enabled: true
+
+  - id: kickoff-projektu-x
+    name: "Kickoff projektu X"
+    url: "https://meet.google.com/qqq-rrrr-sss"
+    time: "11:00"
+    recurrence: once
+    date: "2026-09-10"
+    enabled: true

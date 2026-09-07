@@ -1,0 +1,10 @@
+[Unit]
+Description=Co minutę sprawdza, czy nadszedł czas na jakieś spotkanie Meet
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Persistent=false
+
+[Install]
+WantedBy=timers.target

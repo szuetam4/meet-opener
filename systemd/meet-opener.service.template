@@ -1,0 +1,7 @@
+[Unit]
+Description=Sprawdzenie i ewentualne otwarcie zaplanowanego spotkania Google Meet
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart={{APP_DIR}}/meet.py check
